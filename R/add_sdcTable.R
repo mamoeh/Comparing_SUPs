@@ -16,6 +16,7 @@ if (FALSE) {  # Example
 # Use parameter method to chose sdcTable method
 # Use parameter output to return a data frame instead  
 #      output = "out_simple" or output = "df_merged" 
+# Use output = "prob.microDat" or output = "resSIMPLE" to return sdcTable objects 
 add_sdcTable <- function(filename, path = "merged", output = NULL, 
                          method = "SIMPLEHEURISTIC", pvalue = 5,
                          use_external_primary = TRUE) {
@@ -66,6 +67,9 @@ add_sdcTable <- function(filename, path = "merged", output = NULL,
   
   sdcTable_method <- method
   
+  if(identical(output,  "prob.microDat")){
+    return(prob.microDat)
+  }
   
   cat("] [protectTable..")
   flush.console()
@@ -77,6 +81,10 @@ add_sdcTable <- function(filename, path = "merged", output = NULL,
   
   cat("]\n")
   flush.console()
+  
+  if(identical(output,  "resSIMPLE")){
+    return(resSIMPLE)
+  }
   
   df_merged <- add_info(df_merged, method, timing, try_result = resSIMPLE)
   
