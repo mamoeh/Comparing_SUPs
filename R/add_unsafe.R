@@ -56,7 +56,12 @@ add_unsafe <- function(filename,
   
 
   if(!length(compute_names)) {
-    stop(paste("All unsafe computed"))
+    #stop(paste("All unsafe computed"))
+    rlang::inform(c(
+      v = "All unsafe computed",
+      i = "Skipping computation"
+    ))
+    return(invisible(NULL))
   }
   
   method <- compute_names[1]

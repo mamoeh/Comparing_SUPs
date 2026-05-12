@@ -27,6 +27,14 @@ add_gauss <- function(filename,
   df_merged <- all[["df_merged"]]
   
   
+  if("gauss" %in% df_merged$method) {
+    rlang::inform(c(
+      v = "gauss output already included",
+      i = "Skipping computation"
+    ))
+    return(invisible(NULL))
+  }
+  
   
   primary <- df_merged$primary_gauss
   

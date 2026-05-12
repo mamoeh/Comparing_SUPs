@@ -22,7 +22,12 @@ add_modular <- function(filename, path = "merged", output = NULL, split_tab = FA
   tab_gauss <-  all[["df_merged"]]
   
   if("modular" %in% tab_gauss$method) {
-    stop("modular output already included")
+    # stop("modular output already included")
+    rlang::inform(c(
+      v = "modular output already included",
+      i = "Skipping computation"
+    ))
+    return(invisible(NULL))
   }
 
   clean_up()

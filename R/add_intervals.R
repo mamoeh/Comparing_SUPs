@@ -112,7 +112,12 @@ add_intervals <- function(filename,
   
 
   if(!length(compute_names)) {
-    stop(paste("All intervals computed"))
+    # stop(paste("All intervals computed"))
+    rlang::inform(c(
+      v = "Intervals already computed",
+      i = "Skipping computation"
+    ))
+    return(invisible(NULL))
   }
   
   method <- compute_names[1]

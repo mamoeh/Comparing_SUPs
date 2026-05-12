@@ -29,7 +29,12 @@ add_sdcTable <- function(filename, path = "merged", output = NULL,
 
   if (method %in% df_merged$method) {
     if (is.null(output)) {
-      stop(paste(method, "output already included"))
+      #stop(paste(method, "output already included"))
+      rlang::inform(c(
+        v = paste(method, "output already included"),
+        i = "Skipping computation"
+      ))
+      return(invisible(NULL))
     } else {
       warning(paste(method, "output already included"))
     }
