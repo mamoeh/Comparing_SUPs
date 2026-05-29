@@ -17,9 +17,12 @@ if (FALSE) {  # Example
 # Use parameter output to return a data frame instead  
 #      output = "out_simple" or output = "df_merged" 
 # Use output = "prob.microDat" or output = "resSIMPLE" to return sdcTable objects 
+# Use time_limit to set time limit in seconds. Default is 3600. 
+#      Use Inf to avoid time limit. See code below. 
 add_sdcTable <- function(filename, path = "merged", output = NULL, 
                          method = "SIMPLEHEURISTIC", pvalue = 5,
-                         use_external_primary = TRUE) {
+                         use_external_primary = TRUE,
+                         time_limit = 3600) {
   
   all <- readRDS(file.path(path, paste0(filename, ".rds")))
   
@@ -80,9 +83,25 @@ add_sdcTable <- function(filename, path = "merged", output = NULL,
   flush.console()
   
   
-  timing <- system.time({
-    resSIMPLE <- try(sdcTable::protectTable(prob.microDat, method = sdcTable_method), silent = TRUE)
-  })
+  if(isTRUE(is.finite(time_limit))) {
+    timing <- system.time({
+      resSIMPLE <- try({
+        
+        old_warn <- getOption("warn") # needed for time_limit to work in practice
+        options(warn = 2)
+        on.exit(options(warn = old_warn), add = TRUE)
+        
+        setTimeLimit(elapsed = time_limit)
+        on.exit(setTimeLimit(cpu = Inf, elapsed = Inf, transient = FALSE), add = TRUE)
+        sdcTable::protectTable(prob.microDat, method = sdcTable_method)
+      }, silent = TRUE)
+    })  
+  } else {
+    timing <- system.time({
+      resSIMPLE <- try(sdcTable::protectTable(prob.microDat, method = sdcTable_method), silent = TRUE)
+    })
+  }
+  
   
   cat("]\n")
   flush.console()
