@@ -97,9 +97,6 @@ add_analysis <- function(filename,
     dplyr::filter(lomax_response > lo_simpleheuristic & upmin_response < up_simpleheuristic)
   #in percent
   Protectedness_simple_percent <- (nrow(Protectedness_simple)/ sum(!is.na(result$lo_simpleheuristic ))) *100
-  #simple
-  Protectedness_simple <<- Protectedness_simple
-  result <<- result
   Protectedness_simple_old <- result |>
     dplyr::filter(lomax_response > lo_simpleheuristic_old & upmin_response < up_simpleheuristic_old)
   #in percent
@@ -110,6 +107,18 @@ add_analysis <- function(filename,
                                        Protectedness_modular_percent,
                                        Protectedness_simple_percent,
                                        Protectedness_simple_old_percent))
+  
+  
+  
+  # - Percentage disclosures based on exact linear relations.
+  # - These disclosures are not reported for gauss (shown as NA), 
+  #     since they are exactly what gauss protects against. 
+  #     In fact, the calculations are performed using the gauss algorithm.
+  # - The lower and upper interval bounds should be identical if the calculations are correct.
+  analysis[["exact_linear_reveal_percent"]] <-
+    exact_linear_reveal_percent(all$df_merged, 
+                                c("gauss", "modular", "simpleheuristic", "simpleheuristic_old"))
+  
   
   #suppressions by "Class" to evaluate hierarchical damage
   #For GAUSS
@@ -158,6 +167,23 @@ fix_empty <- function(result) {
     }
   }
   result
+}
+
+
+
+exact_linear_reveal_percent <- function(df, name) {
+  if (length(name) > 1) {
+    return(c(exact_linear_reveal_percent(df, name[1]), exact_linear_reveal_percent(df, name[-1])))
+  }
+  unsafe <- df[[paste0("unsafe_", name)]]
+  primary <- df[[paste0("primary_", name)]]
+  if (is.null(unsafe)) {
+    res <- NA
+  } else {
+    res <- 100 * sum(unsafe[primary])/sum(primary)
+  }
+  names(res) <- name
+  res
 }
 
 

@@ -152,10 +152,11 @@ add_intervals <- function(filename,
     primary[] <- FALSE
     ind_primary <- sample(ind_primary, size = sample_size)
     primary[ind_primary] <- TRUE
-    if (old_intervals) {
-      primary[!is.na(df_merged[[lo_name]])] <- FALSE
-    } 
   }
+  if (old_intervals) {
+    primary[!is.na(df_merged[[lo_name]])] <- FALSE
+  }
+  
   
   suppressed <- df_merged[[paste("suppressed", method, sep = "_")]]
   forced <- !suppressed 
@@ -217,7 +218,8 @@ add_intervals <- function(filename,
   
   if(multiple & length(compute_names) > 1) {
     add_intervals(filename, path = path, multiple = TRUE,
-                  lpPackage = lpPackage, sample_size = sample_size)
+                  lpPackage = lpPackage, sample_size = sample_size, 
+                  n_workers = n_workers)
   } 
   invisible(NULL)
 }

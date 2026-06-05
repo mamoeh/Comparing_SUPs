@@ -15,7 +15,7 @@ if (FALSE) {  # Example
 create_microdata <- function(hiers, n_ids =  1000, n_unique = n_ids/10, 
                              shape = 1.1, 
                              prob_dim = 1/seq_len(100000),
-                             prob_freq = 1/seq_len(1000),
+                             prob_freq = 1/seq_len(100000),
                              rnd_seed = 123,
                              sample_seed = 123) {
   
@@ -32,7 +32,7 @@ create_microdata <- function(hiers, n_ids =  1000, n_unique = n_ids/10,
   if (prod(dim_sizes) > 10^9) {
     stop("The data generation algorithm does not work with very many possible combinations.")
   }
-  d <- skewsample(n_ids, n_unique, dim_sizes)
+  d <- skewsample(n_ids, n_unique, dim_sizes, prob_freq = prob_freq)
   for (i in seq_along(pp)) {
     d[[i]] <- pp[[i]][d[[i]]]
   }
