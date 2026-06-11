@@ -115,9 +115,29 @@ add_analysis <- function(filename,
   #     since they are exactly what gauss protects against. 
   #     In fact, the calculations are performed using the gauss algorithm.
   # - The lower and upper interval bounds should be identical if the calculations are correct.
-  analysis[["exact_linear_reveal_percent"]] <-
-    exact_linear_reveal_percent(all$df_merged, 
-                                c("gauss", "modular", "simpleheuristic", "simpleheuristic_old"))
+  
+  analysis[["exact_linear_reveal_percent"]] <- fun4(exact_linear_reveal_percent, all$df_merged)
+  analysis[["exact_integer_reveal_percent"]] <- fun4(exact_integer_reveal_percent, all$df_merged)
+  analysis[["n_0_upper_bound"]] <- fun4(n_0_upper_bound, all$df_merged)
+  analysis[["elapsed"]] <- fun4(elapsed, all$df_merged)
+  analysis[["error"]] <- fun4(error, all$df_merged)
+  analysis[["log_time"]] <- fun4(log_time, all$df_merged)
+  
+  analysis[["n_primary"]] <- sum(all$df_merged$primary_gauss)
+  analysis[["n_cells"]] <- prod(sapply(all$hierarchies, nrow))
+  analysis[["n_output"]] <- nrow(all$df_merged)
+  analysis[["max_HiTaS_Class"]] <- max(all$df_merged$HiTaS_Class)
+  
+  analysis[["no_secondaries"]] <- add_names_and_NA(analysis[["no_secondaries"]], 
+                                                   analysis[["no_secondaries"]])
+  analysis[["absolute_value"]] <- add_names_and_NA(analysis[["absolute_value"]], 
+                                                   analysis[["no_secondaries"]])
+  analysis[["relative_value"]] <- add_names_and_NA(analysis[["relative_value"]], 
+                                                   analysis[["no_secondaries"]])
+  analysis[["importance_value_surpressed"]] <- add_names_and_NA(analysis[["importance_value_surpressed"]], 
+                                                                analysis[["no_secondaries"]])
+  analysis[["Protectedness"]] <- add_names_and_NA(analysis[["Protectedness"]], 
+                                                  analysis[["no_secondaries"]])
   
   
   #suppressions by "Class" to evaluate hierarchical damage
@@ -170,11 +190,34 @@ fix_empty <- function(result) {
 }
 
 
+fun4 <- function(fun, ..., name = c("gauss", "modular", "simpleheuristic", "simpleheuristic_old")) {
+  res <- rep(NA, length(name))
+  names(res) <- name
+  for (nam in name) {
+    res[[nam]] <- fun(..., name = nam)
+  }
+  res
+}
+
+elapsed <- function(df, name) {
+  df$elapsed[match(name, tolower(df$method))]
+}
+
+error <- function(df, name) {
+  df$error[match(name, tolower(df$method))]
+}
+
+log_time <- function(df, name) {
+  s <- df$HiTaS_log_time[match(name, tolower(df$method))]
+  if (!length(grep("seconds", s))) {
+    return(NA)
+  }
+  strsplit(s, split = "seconds")[[1]][1]
+}
+
+
 
 exact_linear_reveal_percent <- function(df, name) {
-  if (length(name) > 1) {
-    return(c(exact_linear_reveal_percent(df, name[1]), exact_linear_reveal_percent(df, name[-1])))
-  }
   unsafe <- df[[paste0("unsafe_", name)]]
   primary <- df[[paste0("primary_", name)]]
   if (is.null(unsafe)) {
@@ -182,8 +225,39 @@ exact_linear_reveal_percent <- function(df, name) {
   } else {
     res <- 100 * sum(unsafe[primary])/sum(primary)
   }
-  names(res) <- name
   res
 }
 
 
+exact_integer_reveal_percent <- function(df, name, digits = 3) {
+  
+  lo <- df[[paste0("lo_", name)]]
+  if (is.null(lo))
+    return(NA)
+  up <- df[[paste0("up_", name)]]
+  
+  lo <- ceiling(round(lo, digits))
+  up <- floor(round(up, digits))
+  
+  n_reveal <- sum(lo == up, na.rm = TRUE)
+  
+  100 * n_reveal/sum(!is.na(lo))
+}
+
+
+n_0_upper_bound <- function(df, name) {
+  up <- df[[paste0("up_", name)]]
+  if (is.null(up))
+    return(NA)
+  sum(up == 0, na.rm = TRUE)
+}
+
+
+add_names_and_NA <- function(
+      x, 
+      no_secondaries, 
+      name = c("gauss", "modular", "simpleheuristic", "simpleheuristic_old")) {
+  names(x) <- name
+  x[no_secondaries %in% c(0, NA)] <- NA
+  x
+}
