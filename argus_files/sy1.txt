@@ -1,0 +1,475 @@
+24-Mär-2026 08:29:46 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+24-Mär-2026 08:29:46 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+24-Mär-2026 08:29:46 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+24-Mär-2026 08:29:46 : <SPECIFYTABLE> "var1""var2"|"response"||
+24-Mär-2026 08:29:46 : <SAFETYRULE> MAN(10)
+24-Mär-2026 08:29:46 : <READTABLE> 1
+24-Mär-2026 08:29:46 : Tables have been read
+24-Mär-2026 08:29:46 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+24-Mär-2026 08:29:46 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+24-Mär-2026 08:29:46 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+24-Mär-2026 08:29:46 : <SUPPRESS> MOD(1,5,1,0,0)
+24-Mär-2026 08:29:46 : Start of the modular protection for table var1 x var2 | response
+24-Mär-2026 08:29:46 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 22
+24-Mär-2026 08:29:46 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+24-Mär-2026 08:29:46 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+24-Mär-2026 08:29:46 : End of TauArgus run
+24-Mär-2026 08:30:09 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+24-Mär-2026 08:30:09 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+24-Mär-2026 08:30:09 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+24-Mär-2026 08:30:09 : <SPECIFYTABLE> "var1""var2"|"response"||
+24-Mär-2026 08:30:09 : <SAFETYRULE> MAN(10)
+24-Mär-2026 08:30:09 : <READTABLE> 1
+24-Mär-2026 08:30:09 : Tables have been read
+24-Mär-2026 08:30:09 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+24-Mär-2026 08:30:09 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+24-Mär-2026 08:30:09 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+24-Mär-2026 08:30:09 : <SUPPRESS> MOD(1,5,1,0,0)
+24-Mär-2026 08:30:09 : Start of the modular protection for table var1 x var2 | response
+24-Mär-2026 08:30:09 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 21
+24-Mär-2026 08:30:09 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+24-Mär-2026 08:30:09 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+24-Mär-2026 08:30:09 : End of TauArgus run
+24-Mär-2026 08:40:14 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+24-Mär-2026 08:40:14 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+24-Mär-2026 08:40:14 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+24-Mär-2026 08:40:14 : <SPECIFYTABLE> "var1""var2"|"response"||
+24-Mär-2026 08:40:14 : <SAFETYRULE> MAN(10)
+24-Mär-2026 08:40:14 : <READTABLE> 1
+24-Mär-2026 08:40:14 : Tables have been read
+24-Mär-2026 08:40:14 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+24-Mär-2026 08:40:14 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+24-Mär-2026 08:40:14 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+24-Mär-2026 08:40:14 : <SUPPRESS> MOD(1,5,1,0,0)
+24-Mär-2026 08:40:14 : Start of the modular protection for table var1 x var2 | response
+24-Mär-2026 08:40:14 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 28
+24-Mär-2026 08:40:14 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+24-Mär-2026 08:40:14 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+24-Mär-2026 08:40:14 : End of TauArgus run
+24-Mär-2026 08:40:47 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+24-Mär-2026 08:40:47 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+24-Mär-2026 08:40:47 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+24-Mär-2026 08:40:47 : <SPECIFYTABLE> "var1""var2"|"response"||
+24-Mär-2026 08:40:47 : <SAFETYRULE> MAN(10)
+24-Mär-2026 08:40:47 : <READTABLE> 1
+24-Mär-2026 08:40:47 : Tables have been read
+24-Mär-2026 08:40:47 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+24-Mär-2026 08:40:47 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+24-Mär-2026 08:40:47 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+24-Mär-2026 08:40:47 : <SUPPRESS> MOD(1,5,1,0,0)
+24-Mär-2026 08:40:47 : Start of the modular protection for table var1 x var2 | response
+24-Mär-2026 08:40:47 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 28
+24-Mär-2026 08:40:47 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+24-Mär-2026 08:40:47 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+24-Mär-2026 08:40:47 : End of TauArgus run
+24-Mär-2026 11:20:39 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+24-Mär-2026 11:20:39 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+24-Mär-2026 11:20:39 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+24-Mär-2026 11:20:39 : <SPECIFYTABLE> "var1""var2"|"response"||
+24-Mär-2026 11:20:39 : <SAFETYRULE> MAN(10)
+24-Mär-2026 11:20:39 : <READTABLE> 1
+24-Mär-2026 11:20:39 : Tables have been read
+24-Mär-2026 11:20:39 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+24-Mär-2026 11:20:39 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+24-Mär-2026 11:20:39 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+24-Mär-2026 11:20:39 : <SUPPRESS> MOD(1,5,1,0,0)
+24-Mär-2026 11:20:39 : Start of the modular protection for table var1 x var2 | response
+24-Mär-2026 11:20:39 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 22
+24-Mär-2026 11:20:39 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+24-Mär-2026 11:20:39 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+24-Mär-2026 11:20:39 : End of TauArgus run
+27-Mär-2026 09:30:19 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Mär-2026 09:30:19 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Mär-2026 09:30:19 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Mär-2026 09:30:19 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Mär-2026 09:30:19 : <SAFETYRULE> MAN(10)
+27-Mär-2026 09:30:19 : <READTABLE> 1
+27-Mär-2026 09:30:19 : Tables have been read
+27-Mär-2026 09:30:19 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Mär-2026 09:30:19 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Mär-2026 09:30:19 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Mär-2026 09:30:19 : <SUPPRESS> MOD(1,5,1,0,0)
+27-Mär-2026 09:30:19 : Start of the modular protection for table var1 x var2 | response
+27-Mär-2026 09:30:19 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 26
+27-Mär-2026 09:30:19 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Mär-2026 09:30:19 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Mär-2026 09:30:19 : End of TauArgus run
+27-Mär-2026 09:31:12 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Mär-2026 09:31:12 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Mär-2026 09:31:12 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Mär-2026 09:31:12 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Mär-2026 09:31:12 : <SAFETYRULE> MAN(10)
+27-Mär-2026 09:31:12 : <READTABLE> 1
+27-Mär-2026 09:31:12 : Tables have been read
+27-Mär-2026 09:31:12 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Mär-2026 09:31:12 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Mär-2026 09:31:12 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Mär-2026 09:31:12 : <SUPPRESS> MOD(1,5,1,0,0)
+27-Mär-2026 09:31:12 : Start of the modular protection for table var1 x var2 | response
+27-Mär-2026 09:31:12 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 26
+27-Mär-2026 09:31:12 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Mär-2026 09:31:12 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Mär-2026 09:31:12 : End of TauArgus run
+27-Mär-2026 10:25:57 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Mär-2026 10:25:57 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Mär-2026 10:25:57 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Mär-2026 10:25:57 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Mär-2026 10:25:57 : <SAFETYRULE> MAN(10)
+27-Mär-2026 10:25:57 : <READTABLE> 1
+27-Mär-2026 10:25:57 : Tables have been read
+27-Mär-2026 10:25:57 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Mär-2026 10:25:57 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Mär-2026 10:25:57 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Mär-2026 10:25:57 : <SUPPRESS> MOD(1,5,1,0,0)
+27-Mär-2026 10:25:57 : Start of the modular protection for table var1 x var2 | response
+27-Mär-2026 10:25:57 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 26
+27-Mär-2026 10:25:57 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Mär-2026 10:25:57 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Mär-2026 10:25:57 : End of TauArgus run
+27-Mär-2026 10:42:44 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Mär-2026 10:42:44 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Mär-2026 10:42:44 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Mär-2026 10:42:44 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Mär-2026 10:42:44 : <SAFETYRULE> MAN(10)
+27-Mär-2026 10:42:44 : <READTABLE> 1
+27-Mär-2026 10:42:44 : Tables have been read
+27-Mär-2026 10:42:44 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Mär-2026 10:42:44 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Mär-2026 10:42:44 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Mär-2026 10:42:44 : <SUPPRESS> MOD(1,5,1,0,0)
+27-Mär-2026 10:42:44 : Start of the modular protection for table var1 x var2 | response
+27-Mär-2026 10:42:44 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 29
+27-Mär-2026 10:42:44 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Mär-2026 10:42:44 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Mär-2026 10:42:44 : End of TauArgus run
+27-Mär-2026 10:45:03 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Mär-2026 10:45:03 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Mär-2026 10:45:03 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Mär-2026 10:45:03 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Mär-2026 10:45:03 : <SAFETYRULE> MAN(10)
+27-Mär-2026 10:45:03 : <READTABLE> 1
+27-Mär-2026 10:45:03 : Tables have been read
+27-Mär-2026 10:45:03 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Mär-2026 10:45:03 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Mär-2026 10:45:03 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Mär-2026 10:45:03 : <SUPPRESS> MOD(1,5,1,0,0)
+27-Mär-2026 10:45:03 : Start of the modular protection for table var1 x var2 | response
+27-Mär-2026 10:45:03 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 29
+27-Mär-2026 10:45:03 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Mär-2026 10:45:03 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Mär-2026 10:45:03 : End of TauArgus run
+27-Mär-2026 10:45:52 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Mär-2026 10:45:52 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Mär-2026 10:45:52 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Mär-2026 10:45:52 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Mär-2026 10:45:52 : <SAFETYRULE> MAN(10)
+27-Mär-2026 10:45:52 : <READTABLE> 1
+27-Mär-2026 10:45:52 : Tables have been read
+27-Mär-2026 10:45:52 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Mär-2026 10:45:52 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Mär-2026 10:45:52 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Mär-2026 10:45:52 : <SUPPRESS> MOD(1,5,1,0,0)
+27-Mär-2026 10:45:52 : Start of the modular protection for table var1 x var2 | response
+27-Mär-2026 10:45:52 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 32
+27-Mär-2026 10:45:52 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Mär-2026 10:45:52 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Mär-2026 10:45:52 : End of TauArgus run
+27-Mär-2026 10:51:00 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Mär-2026 10:51:00 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Mär-2026 10:51:00 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Mär-2026 10:51:00 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Mär-2026 10:51:00 : <SAFETYRULE> MAN(10)
+27-Mär-2026 10:51:00 : <READTABLE> 1
+27-Mär-2026 10:51:00 : Tables have been read
+27-Mär-2026 10:51:00 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Mär-2026 10:51:00 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Mär-2026 10:51:00 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Mär-2026 10:51:00 : <SUPPRESS> MOD(1,5,1,0,0)
+27-Mär-2026 10:51:00 : Start of the modular protection for table var1 x var2 | response
+27-Mär-2026 10:51:00 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 27
+27-Mär-2026 10:51:00 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Mär-2026 10:51:00 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Mär-2026 10:51:00 : End of TauArgus run
+17-Apr-2026 11:29:51 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+17-Apr-2026 11:29:51 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+17-Apr-2026 11:29:51 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+17-Apr-2026 11:29:51 : <SPECIFYTABLE> "var1""var2"|"response"||
+17-Apr-2026 11:29:51 : <SAFETYRULE> MAN(10)
+17-Apr-2026 11:29:51 : <READTABLE> 1
+17-Apr-2026 11:29:51 : Tables have been read
+17-Apr-2026 11:29:51 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+17-Apr-2026 11:29:51 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+17-Apr-2026 11:29:51 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+17-Apr-2026 11:29:51 : <SUPPRESS> MOD(1,5,1,0,0)
+17-Apr-2026 11:29:51 : Start of the modular protection for table var1 x var2 | response
+17-Apr-2026 11:29:51 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 244
+17-Apr-2026 11:29:51 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+17-Apr-2026 11:29:51 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+17-Apr-2026 11:29:52 : End of TauArgus run
+17-Apr-2026 11:33:17 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+17-Apr-2026 11:33:17 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+17-Apr-2026 11:33:17 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+17-Apr-2026 11:33:17 : <SPECIFYTABLE> "var1""var2"|"response"||
+17-Apr-2026 11:33:17 : <SAFETYRULE> MAN(10)
+17-Apr-2026 11:33:17 : <READTABLE> 1
+17-Apr-2026 11:33:17 : Tables have been read
+17-Apr-2026 11:33:17 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+17-Apr-2026 11:33:17 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+17-Apr-2026 11:33:17 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+17-Apr-2026 11:33:17 : <SUPPRESS> MOD(1,5,1,0,0)
+17-Apr-2026 11:33:17 : Start of the modular protection for table var1 x var2 | response
+17-Apr-2026 11:33:18 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 244
+17-Apr-2026 11:33:18 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+17-Apr-2026 11:33:18 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+17-Apr-2026 11:33:18 : End of TauArgus run
+17-Apr-2026 11:37:11 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+17-Apr-2026 11:37:11 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+17-Apr-2026 11:37:11 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+17-Apr-2026 11:37:11 : <SPECIFYTABLE> "var1""var2"|"response"||
+17-Apr-2026 11:37:11 : <SAFETYRULE> MAN(10)
+17-Apr-2026 11:37:11 : <READTABLE> 1
+17-Apr-2026 11:37:11 : Tables have been read
+17-Apr-2026 11:37:11 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+17-Apr-2026 11:37:11 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+17-Apr-2026 11:37:11 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+17-Apr-2026 11:37:11 : <SUPPRESS> MOD(1,5,1,0,0)
+17-Apr-2026 11:37:11 : Start of the modular protection for table var1 x var2 | response
+17-Apr-2026 11:37:11 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 244
+17-Apr-2026 11:37:11 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+17-Apr-2026 11:37:11 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+17-Apr-2026 11:37:11 : End of TauArgus run
+17-Apr-2026 11:45:53 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+17-Apr-2026 11:45:53 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+17-Apr-2026 11:45:53 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+17-Apr-2026 11:45:53 : <SPECIFYTABLE> "var1""var2"|"response"||
+17-Apr-2026 11:45:53 : <SAFETYRULE> MAN(10)
+17-Apr-2026 11:45:53 : <READTABLE> 1
+17-Apr-2026 11:45:53 : Tables have been read
+17-Apr-2026 11:45:53 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+17-Apr-2026 11:45:53 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+17-Apr-2026 11:45:53 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+17-Apr-2026 11:45:53 : <SUPPRESS> MOD(1,5,0,0,0)
+17-Apr-2026 11:45:53 : Start of the modular protection for table var1 x var2 | response
+17-Apr-2026 11:45:53 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 221
+17-Apr-2026 11:45:53 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+17-Apr-2026 11:45:53 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+17-Apr-2026 11:45:53 : End of TauArgus run
+24-Apr-2026 09:00:56 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+24-Apr-2026 09:00:56 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+24-Apr-2026 09:00:56 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+24-Apr-2026 09:00:56 : <SPECIFYTABLE> "var1""var2"|"response"||
+24-Apr-2026 09:00:56 : <SAFETYRULE> MAN(10)
+24-Apr-2026 09:00:56 : <READTABLE> 1
+24-Apr-2026 09:00:56 : Tables have been read
+24-Apr-2026 09:00:56 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+24-Apr-2026 09:00:56 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+24-Apr-2026 09:00:56 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+24-Apr-2026 09:00:56 : <SUPPRESS> MOD(1,5,0,0,0)
+24-Apr-2026 09:00:56 : Start of the modular protection for table var1 x var2 | response
+24-Apr-2026 09:00:56 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 221
+24-Apr-2026 09:00:56 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+24-Apr-2026 09:00:56 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+24-Apr-2026 09:00:56 : End of TauArgus run
+24-Apr-2026 09:01:40 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+24-Apr-2026 09:01:40 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+24-Apr-2026 09:01:40 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+24-Apr-2026 09:01:40 : <SPECIFYTABLE> "var1""var2"|"response"||
+24-Apr-2026 09:01:40 : <SAFETYRULE> MAN(10)
+24-Apr-2026 09:01:40 : <READTABLE> 1
+24-Apr-2026 09:01:40 : Tables have been read
+24-Apr-2026 09:01:40 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+24-Apr-2026 09:01:40 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+24-Apr-2026 09:01:40 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+24-Apr-2026 09:01:40 : <SUPPRESS> MOD(1,5,0,0,0)
+24-Apr-2026 09:01:40 : Start of the modular protection for table var1 x var2 | response
+24-Apr-2026 09:01:40 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 221
+24-Apr-2026 09:01:40 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+24-Apr-2026 09:01:40 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+24-Apr-2026 09:01:40 : End of TauArgus run
+24-Apr-2026 09:07:37 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+24-Apr-2026 09:07:37 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+24-Apr-2026 09:07:37 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+24-Apr-2026 09:07:37 : <SPECIFYTABLE> "var1""var2"|"response"||
+24-Apr-2026 09:07:37 : <SAFETYRULE> MAN(10)
+24-Apr-2026 09:07:37 : <READTABLE> 1
+24-Apr-2026 09:07:37 : Tables have been read
+24-Apr-2026 09:07:37 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+24-Apr-2026 09:07:37 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+24-Apr-2026 09:07:37 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+24-Apr-2026 09:07:37 : <SUPPRESS> MOD(1,5,0,0,0)
+24-Apr-2026 09:07:37 : Start of the modular protection for table var1 x var2 | response
+24-Apr-2026 09:07:37 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 221
+24-Apr-2026 09:07:37 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+24-Apr-2026 09:07:37 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+24-Apr-2026 09:07:37 : End of TauArgus run
+27-Apr-2026 08:15:14 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Apr-2026 08:15:14 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Apr-2026 08:15:14 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Apr-2026 08:15:14 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Apr-2026 08:15:14 : <SAFETYRULE> MAN(10)
+27-Apr-2026 08:15:14 : <READTABLE> 1
+27-Apr-2026 08:15:14 : Tables have been read
+27-Apr-2026 08:15:14 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Apr-2026 08:15:14 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Apr-2026 08:15:14 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Apr-2026 08:15:14 : <SUPPRESS> MOD(1,5,0,0,0)
+27-Apr-2026 08:15:14 : Start of the modular protection for table var1 x var2 | response
+27-Apr-2026 08:15:15 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 202
+27-Apr-2026 08:15:15 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Apr-2026 08:15:15 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Apr-2026 08:15:15 : End of TauArgus run
+27-Apr-2026 08:17:25 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Apr-2026 08:17:25 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Apr-2026 08:17:25 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Apr-2026 08:17:25 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Apr-2026 08:17:25 : <SAFETYRULE> MAN(10)
+27-Apr-2026 08:17:25 : <READTABLE> 1
+27-Apr-2026 08:17:25 : Tables have been read
+27-Apr-2026 08:17:25 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Apr-2026 08:17:25 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Apr-2026 08:17:25 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Apr-2026 08:17:25 : <SUPPRESS> MOD(1,5,0,0,0)
+27-Apr-2026 08:17:25 : Start of the modular protection for table var1 x var2 | response
+27-Apr-2026 08:17:26 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 202
+27-Apr-2026 08:17:26 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Apr-2026 08:17:26 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Apr-2026 08:17:26 : End of TauArgus run
+27-Apr-2026 08:32:26 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Apr-2026 08:32:26 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Apr-2026 08:32:26 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Apr-2026 08:32:26 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Apr-2026 08:32:26 : <SAFETYRULE> MAN(10)
+27-Apr-2026 08:32:26 : <READTABLE> 1
+27-Apr-2026 08:32:26 : Tables have been read
+27-Apr-2026 08:32:26 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Apr-2026 08:32:27 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Apr-2026 08:32:27 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Apr-2026 08:32:27 : <SUPPRESS> MOD(1,5,0,0,0)
+27-Apr-2026 08:32:27 : Start of the modular protection for table var1 x var2 | response
+27-Apr-2026 08:32:27 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 202
+27-Apr-2026 08:32:27 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Apr-2026 08:32:27 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Apr-2026 08:32:27 : End of TauArgus run
+27-Apr-2026 08:36:19 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Apr-2026 08:36:19 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Apr-2026 08:36:19 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Apr-2026 08:36:19 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Apr-2026 08:36:19 : <SAFETYRULE> MAN(10)
+27-Apr-2026 08:36:19 : <READTABLE> 1
+27-Apr-2026 08:36:19 : Tables have been read
+27-Apr-2026 08:36:19 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Apr-2026 08:36:19 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Apr-2026 08:36:19 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Apr-2026 08:36:19 : <SUPPRESS> MOD(1,5,0,0,0)
+27-Apr-2026 08:36:19 : Start of the modular protection for table var1 x var2 | response
+27-Apr-2026 08:36:19 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 202
+27-Apr-2026 08:36:19 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Apr-2026 08:36:19 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Apr-2026 08:36:19 : End of TauArgus run
+27-Apr-2026 09:22:49 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Apr-2026 09:22:49 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Apr-2026 09:22:49 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Apr-2026 09:22:49 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Apr-2026 09:22:49 : <SAFETYRULE> MAN(10)
+27-Apr-2026 09:22:49 : <READTABLE> 1
+27-Apr-2026 09:22:49 : Tables have been read
+27-Apr-2026 09:22:49 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Apr-2026 09:22:49 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Apr-2026 09:22:49 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Apr-2026 09:22:49 : <SUPPRESS> MOD(1,5,0,0,0)
+27-Apr-2026 09:22:49 : Start of the modular protection for table var1 x var2 | response
+27-Apr-2026 09:22:49 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 202
+27-Apr-2026 09:22:49 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Apr-2026 09:22:49 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Apr-2026 09:22:49 : End of TauArgus run
+27-Apr-2026 09:35:04 : Start of batch procedure; file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.arb
+27-Apr-2026 09:35:04 : <OPENTABLEDATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.tab"
+27-Apr-2026 09:35:04 : <OPENMETADATA> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.rda"
+27-Apr-2026 09:35:04 : <SPECIFYTABLE> "var1""var2"|"response"||
+27-Apr-2026 09:35:04 : <SAFETYRULE> MAN(10)
+27-Apr-2026 09:35:04 : <READTABLE> 1
+27-Apr-2026 09:35:04 : Tables have been read
+27-Apr-2026 09:35:04 : <APRIORI> "C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst",1,",",0,0
+27-Apr-2026 09:35:04 : Apriory file: C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been applied
+                       to table: var1 x var2 | response
+27-Apr-2026 09:35:04 : Apriori file C:\RProjekte\Comparing_SUPs\argus_files\sy1.hst has been read
+27-Apr-2026 09:35:04 : <SUPPRESS> MOD(1,5,0,0,0)
+27-Apr-2026 09:35:04 : Start of the modular protection for table var1 x var2 | response
+27-Apr-2026 09:35:05 : End of modular protection. Time used 0 seconds
+                       Number of suppressions: 202
+27-Apr-2026 09:35:05 : <WRITETABLE> (1,4,,"C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv")
+27-Apr-2026 09:35:05 : Table: var1 x var2 | response has been written
+                       Output file name: C:\RProjekte\Comparing_SUPs\argus_files\sy1.csv
+27-Apr-2026 09:35:05 : End of TauArgus run
